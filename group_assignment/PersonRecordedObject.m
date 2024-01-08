@@ -51,7 +51,7 @@ classdef PersonRecordedObject
             nexttile;
             plot(obj.standing.gyroscope.Times,obj.standing.gyroscope.Xrads, ...
                 obj.standing.gyroscope.Times,obj.standing.gyroscope.Yrads, ...
-                obj.standing.gyroscope.Times,obj.standing.gyroscope.Yrads);
+                obj.standing.gyroscope.Times,obj.standing.gyroscope.Zrads);
             title('standing gyroscope')
 
             nexttile;
@@ -62,7 +62,7 @@ classdef PersonRecordedObject
             nexttile;
             plot(obj.walking.gyroscope.Times,obj.walking.gyroscope.Xrads, ...
                 obj.walking.gyroscope.Times,obj.walking.gyroscope.Yrads, ...
-                obj.walking.gyroscope.Times,obj.walking.gyroscope.Yrads);
+                obj.walking.gyroscope.Times,obj.walking.gyroscope.Zrads);
             title('walking gyroscope')
 
             nexttile;
@@ -73,7 +73,7 @@ classdef PersonRecordedObject
             nexttile;
             plot(obj.knee_bending.gyroscope.Times,obj.knee_bending.gyroscope.Xrads, ...
                 obj.knee_bending.gyroscope.Times,obj.knee_bending.gyroscope.Yrads, ...
-                obj.knee_bending.gyroscope.Times,obj.knee_bending.gyroscope.Yrads);
+                obj.knee_bending.gyroscope.Times,obj.knee_bending.gyroscope.Zrads);
             title('knee bending gyroscope')
 
             nexttile;
@@ -84,7 +84,7 @@ classdef PersonRecordedObject
             nexttile;
             plot(obj.tip_rising.gyroscope.Times,obj.tip_rising.gyroscope.Xrads, ...
                 obj.tip_rising.gyroscope.Times,obj.tip_rising.gyroscope.Yrads, ...
-                obj.tip_rising.gyroscope.Times,obj.tip_rising.gyroscope.Yrads);
+                obj.tip_rising.gyroscope.Times,obj.tip_rising.gyroscope.Zrads);
             title('tip rising gyroscope')
             title(tl, [obj.name, ' Data'])
 
